@@ -1,0 +1,30 @@
+{
+  "name": "electrometeor-cli",
+  "version": "0.0.1",
+  "description": "CLI tool for using Electron with Meteor",
+  "author": "sircharleswatson",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "electrometeor": "bin/electrometeor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sircharleswatson/electrometeor-cli.git"
+  },
+  "keywords": [
+    "meteor",
+    "electron",
+    "desktop"
+  ],
+  "bugs": {
+    "url": "https://github.com/sircharleswatson/electrometeor-cli/issues"
+  },
+  "homepage": "https://github.com/sircharleswatson/electrometeor-cli.git",
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "nomnom": "^1.8.1",
+    "shelljs": "^0.5.3",
+    "npm-assets": "0.1.0"
+  }
+}
