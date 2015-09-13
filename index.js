@@ -1,7 +1,7 @@
 var _ = require('lodash');
 var nomnom = require('nomnom');
-var create = require('./lib/create')
-var run = require('./lib/run')
+var create = require('./lib/commands/create')
+var run = require('./lib/commands/run')
 
 var createFlags = ['shallow', 'deep', 'hybrid']
 nomnom.command('create-shallow')
@@ -16,13 +16,12 @@ nomnom.command('create-shallow')
         }
     })
     .callback(function(opts) {
-
         create.createApp(opts.name, opts.url)
     })
     .help("run browser tests");
 
 nomnom.command('run')
-    .callback(function() {
+    .callback(function(opts) {
         run();
     })
 

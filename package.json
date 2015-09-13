@@ -21,10 +21,14 @@
     "url": "https://github.com/sircharleswatson/electrometeor-cli/issues"
   },
   "homepage": "https://github.com/sircharleswatson/electrometeor-cli.git",
-  "dependencies": {
+  "devDependencies": {
+    "electron-prebuilt": "^0.31.1",
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.4.3",
+    "gulp-watch": "^4.3.5",
     "lodash": "^3.10.0",
     "nomnom": "^1.8.1",
-    "shelljs": "^0.5.3",
-    "npm-assets": "0.1.0"
+    "npm-assets": "0.1.0",
+    "shelljs": "^0.5.3"
   }
 }
